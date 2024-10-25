@@ -28,6 +28,59 @@ html {
     height: var( --logo-sena );
 }
 
+
+/** Main */
+.content {
+    background-color: var( --AliceBlue );
+}
+
+h3 {
+    display: flex;
+    font-size: 1.25em;
+    line-height: 1.2; 
+    flex-direction: column;
+    position: relative;
+    padding-left: 1.2rem;
+    margin-bottom: 1.4rem;
+
+    span {
+        white-space: nowrap;
+    }
+
+    &::before {
+        content: "";
+        display: block;
+        width: 4px;
+        background-color: #ffca00;
+        position: absolute; 
+        top: 0; 
+        bottom: 0; 
+        left: 0;
+        border-radius: 2px;
+    }
+}
+
+.content-list {
+    .link-item {
+        font-size: 1em;
+        font-weight: 400;
+        text-decoration: none;
+        color: var( --YankeesBlue );
+        transition: all .15s ease-in-out;
+        -webkit-text-decoration-skip: objects;
+    }
+    .link-item:hover {
+        background-color: var( --AliceBlue );
+        font-weight: 600;
+        transition: all .15s ease-in-out;
+        -webkit-text-decoration-skip: objects;
+        border-radius: 0.25rem;
+    }
+    .btn-numeration {
+        background: var( --AliceBlue );
+    }
+}
+
 /** Footer */
 .footer-pre {
     background-color: var( --AliceBlue );
