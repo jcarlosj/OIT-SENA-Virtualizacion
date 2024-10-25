@@ -1,9 +1,44 @@
 :root {
-    --logo-sena--width: 50px;
-    --logo-sena--height: 50px;
+    /** Colors Palette */
+    --AliceBlue: #F3F9FF;
+    --AzureishWhite: #D2E1F1;
+    --Rhythm: #727997;
+    --YankeesBlue: #12263F;
+
+    /** Fonts */
+    --Roboto: "Roboto", sans-serif;
 }
 
-.logo-sena {
-    width: var( --logo-sena--width );
-    height: var( --logo-sena--height );
+html {
+	box-sizing: border-box;
+	font-family: var( --Roboto );	
+}
+
+
+/** Header */
+.logo-sena__header {
+    --logo-sena: 50px;
+    width: var( --logo-sena );
+    height: var( --logo-sena );
+}
+
+.logo-sena__footer {
+    --logo-sena: 100px;
+    width: var( --logo-sena );
+    height: var( --logo-sena );
+}
+
+/** Footer */
+.footer-pre {
+    background-color: var( --AliceBlue );
+
+    h5 {
+        color: var( --YankeesBlue );
+        font-size: 1em;
+    }
+}
+.footer-main {
+    background-color: var( --AzureishWhite );
+    color: var( --Rhythm );
+    font-size: 12.8px;
 }
