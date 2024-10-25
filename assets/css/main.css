@@ -1,0 +1,9 @@
+:root {
+    --logo-sena--width: 50px;
+    --logo-sena--height: 50px;
+}
+
+.logo-sena {
+    width: var( --logo-sena--width );
+    height: var( --logo-sena--height );
+}
