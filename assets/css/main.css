@@ -9,7 +9,7 @@
     --Roboto: "Roboto", sans-serif;
 }
 
-html {
+html, body {
 	box-sizing: border-box;
 	font-family: var( --Roboto );	
 }
@@ -27,6 +27,83 @@ html {
     width: var( --logo-sena );
     height: var( --logo-sena );
 }
+
+/** Banner */
+.banner {
+    height: 46vh; /* Ajusta la altura del contenedor */
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        padding: 1rem; 
+
+        .info-course {
+            padding: 3rem 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .info-course {
+                padding: 2rem 0 0 2rem;
+            }
+        }
+        @media (min-width: 992px) {
+            .info-course {
+                padding: 4rem 0 0 4rem;
+            }
+        }
+
+        h3 { 
+            margin: 0; 
+            padding: 0; 
+            line-height: 1.1em;
+            font-size: 32px;
+        }
+
+        h3::before {
+            display: none;
+        }
+    }
+
+   
+    
+    .banner-woman {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 75%;
+    }
+    
+    .banner-man {
+        position: absolute;
+        top: 65%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    @media ( min-width: 992px ) {
+        .img-mobile {
+            position: relative;
+            top: 4rem;
+            right: 2rem;
+        }
+    }
+    
+}
+
+
+
+
 
 
 /** Main */

@@ -43,8 +43,30 @@
         </nav>
     </header>
 
-    <main class="main container-sm container-md container-lg container-xl">
-        <section class="content rounded-4 px-3 py-4 px-sm-5 pb-sm-5 mb-5">
+    <main class="main container-fluid px-0 px-sm-3 container-sm container-md container-lg container-xl">
+        <section class="banner d-flex align-items-center justify-content-center overflow-hidden rounded-4">
+            <img src="./assets/images/bg-banner.png" alt="Banner" class="img-desktop img-fluid w-100 h-100 d-none d-lg-block">
+            <img src="./assets/images/bg-banner.png" alt="Banner" class="img-mobile d-lg-none">
+        
+            <div class="info row text-center m-0">
+                <div class="info-course col-12 col-md-12 col-lg-7 d-flex flex-column justify-content-start align-items-start gap-3 text-start">
+                    <h3>Elementos conceptuales de la gestión de talento humano en organizaciones deportivas</h3>
+                    <p>En este componente, se abordará, de forma general, la conceptualización referente al talento humano, la importancia y su rol dentro de la organización, además de la gestión y ejecución dentro de esta.</p>
+                    <a class="btn btn-success" href="#">
+                        <span>Ver más</span>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </div> <!-- 12 en md y 7 en lg -->
+                <div class="col-12 col-lg-5 d-none d-lg-block position-relative">
+                    <img class="banner-woman" src="./assets/images/banner-woman.png" alt="">
+                    <img class="banner-man" src="./assets/images/banner-man.png" alt="">
+                </div>
+                 <!-- 12 en md y 5 en lg -->
+            </div>
+        </section>
+
+
+        <section class="content rounded-4 px-3 py-4 px-sm-5 pb-sm-5 mt-5 mb-5">
             <h3>
                 <span>Desarrollo</span>
                 <span>de contenidos</span>
