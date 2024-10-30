@@ -4,6 +4,11 @@
     --AzureishWhite: #D2E1F1;
     --Rhythm: #727997;
     --YankeesBlue: #12263F;
+    --Water: #D8ECFF;
+    --White: #FFFFFF;
+    --Back: #000000;
+    --Platinum: #E8E8E8;
+    --PhilippineYellow: #FFCA00;
 
     /** Fonts */
     --Roboto: "Roboto", sans-serif;
@@ -129,10 +134,60 @@ html, body {
     
 }
 
+.page-content {
+
+    .banner-top-content {
+        height: 10rem;
+        object-fit: cover;
+    }
+
+    .banner-image {
+        /* border: 1px solid blue; */
+        position: absolute;
+        width: 100%;
+        z-index: 0;
+    }
+
+    .main {
+        z-index: 1;
+        margin-top: 4rem;
+    }
+
+}
 
 /** Main */
 .content {
     background-color: var( --AliceBlue );
+}
+
+.page {
+    background-color: var( --White );
+    .header{
+        background-color: var( --White );
+    }
+}
+
+.page-content {
+    background-color: var( --AliceBlue );
+    .content {
+        background-color: var( --White );
+    }
+}
+
+.title-main {
+    border-bottom: 3px solid var( --Platinum );
+    font-size: 32px;
+    padding-bottom: .8rem;
+
+    i.bi.bi-info-square-fill {
+        margin-right: .8rem;
+    }
+
+    .bi-info-square-fill::before {
+        border-radius: .4rem;
+        background-color: var( --Back );
+        color: var( --PhilippineYellow );
+    }
 }
 
 h3 {
@@ -183,6 +238,10 @@ h3 {
 }
 
 /** Footer */
+.footer-navbar {
+    background: var(--Water);
+}
+
 .footer-pre {
     background-color: var( --AliceBlue );
 
