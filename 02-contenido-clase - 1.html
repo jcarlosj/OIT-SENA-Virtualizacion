@@ -17,6 +17,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
 </head>
 
 <body class="page page-content d-flex flex-column min-vh-100">
@@ -54,34 +55,369 @@
 
     <main class="main container-fluid px-0 px-sm-3 container-sm container-md container-lg container-xl">
 
-        <section class="content rounded-4 px-3 py-4 px-sm-5 pb-sm-5 mt-5 mb-5">
-            <h1 class="title-main">
-                <i class="bi bi-info-square-fill"></i>
-                Introducción al Big Data
-            </h1>
+        <section class="seccion-principal seccion-principal--barra-avance-open">
+            <div id="curso" class="curso">
+                <div class="curso-main-container pb-3">
 
-            <section>
-                <div data-aos="flip-up" class="titulo-principal color-acento-contenido aos-init aos-animate">
-                    <div class="titulo-principal__numero"><span>1</span></div>
-                    <h1>Elementos conceptuales de la gestión del talento humano</h1>
-                </div>
-                <div class="d-flex flex-wrap mb-5 align-items-center">
-                    <img src="img/img-1.86ff7a56.png" data-aos="fade-right"
-                        class="col-lg-4 mb-4 mb-lg-auto mx-auto aos-init aos-animate" style="max-width: 400px;">
-                    <div data-aos="fade-left" class="col-lg-8 ps-lg-4 aos-init aos-animate">
-                        <p>En este capítulo inicial, se introduce el concepto fundamental del Big Data y su papel
-                            transformador en la sociedad contemporánea. Se exploran las características distintivas que
-                            definen al Big Data, conocidas como las «5 V», y se examina cómo este fenómeno está
-                            revolucionando la forma en que organizaciones y personas toman decisiones en diversos
-                            sectores.</p>
+                    <div class="container-fluid banner-interno">
+                        <div class="banner-interno__fondo"
+                            style="background-image: url(&quot;img/fondo-banner-principal.859a0dfc.png&quot;);"></div>
+                        <!-- <div class="container">
+                            <div class="banner-interno__titulo py-5">
+                                <h2 class="mb-0"></h2>
+                            </div>
+                        </div> -->
+                    </div>
+
+
+
+                    <div class="container tarjeta tarjeta--blanca p-4 p-md-5 mb-5">
+
+                        <section>
+                            <div data-aos="flip-up"
+                                class="titulo-principal color-acento-contenido aos-init aos-animate">
+                                <div class="titulo-principal__numero"><span>1</span></div>
+                                <h1>Introducción al Big Data</h1>
+                            </div>
+                            <div class="d-flex flex-wrap mb-5 align-items-center">
+                                <img src="assets/images/codigo.jpg" class="col-lg-4 mb-4 mb-lg-auto mx-auto rounded-3"
+                                    style="max-width: 400px;">
+                                <div class="col-lg-8 ps-lg-4 aos-init aos-animate">
+                                    <p>En este capítulo inicial, se introduce el concepto fundamental del Big Data y su
+                                        papel transformador en la sociedad contemporánea. Se exploran las
+                                        características
+                                        distintivas que definen al Big Data, conocidas como las «5 V», y se examina cómo
+                                        este fenómeno está revolucionando la forma en que organizaciones y personas
+                                        toman
+                                        decisiones en diversos sectores.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="separador-container">
+                            <div class="separador"></div>
+                        </div>
+
+                        <section>
+                            <div id="t_1_1" class="titulo-segundo color-acento-botones">
+                                <h2>1.1 Definición y características del Big Data</h2>
+                            </div>
+                            <p class="mb-5 aos-init aos-animate">El término Big Data se refiere a
+                                conjuntos de datos extremadamente grandes y complejos que superan la capacidad de las
+                                herramientas de procesamiento de datos tradicionales. Estos conjuntos de datos se
+                                caracterizan por lo que se conoce como las «5 V»:</p>
+                            <div class="d-flex flex-wrap mb-5">
+
+                                <ul class="lista-ul--color lista-ul--separador">
+                                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                            src="assets/images/svg/decorador-ul.a1e14f58.svg"
+                                            class="mt-1 aos-init aos-animate" style="max-width: 8px;">
+                                        <p class="ps-2 mb-0 aos-init aos-animate"><strong>Volumen</strong>: cantidades
+                                            masivas de datos,
+                                            que van desde terabytes hasta petabytes y más.</p>
+                                    </li>
+                                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                            src="assets/images/svg/decorador-ul.a1e14f58.svg"
+                                            class="mt-1 aos-init aos-animate" style="max-width: 8px;">
+                                        <p class="ps-2 mb-0 aos-init aos-animate"><strong>Velocidad:</strong> la rapidez
+                                            con la que se
+                                            generan y procesan los datos.</p>
+                                    </li>
+                                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                            src="assets/images/svg/decorador-ul.a1e14f58.svg"
+                                            class="mt-1 aos-init aos-animate" style="max-width: 8px;">
+                                        <p class="ps-2 mb-0 aos-init aos-animate"><strong>Variedad:</strong> diversos tipos de datos
+                                            estructurados, semiestructurados y no estructurados.</p>
+                                    </li>
+                                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                            src="assets/images/svg/decorador-ul.a1e14f58.svg"
+                                            class="mt-1 aos-init aos-animate" style="max-width: 8px;">
+                                        <p class="ps-2 mb-0 aos-init aos-animate"><strong>Veracidad:</strong> la confiabilidad y precisión de los datos.</p>
+                                    </li>
+                                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                            src="assets/images/svg/decorador-ul.a1e14f58.svg"
+                                            class="mt-1 aos-init aos-animate" style="max-width: 8px;">
+                                        <p class="ps-2 mb-0 aos-init aos-animate"><strong>Valor:</strong> la capacidad de convertir los datos en información útil para la toma de decisiones.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>La siguiente tabla ilustra las diferencias clave
+                                entre el análisis de datos tradicional y el Big Data, destacando la evolución en la
+                                capacidad de procesamiento y gestión de la información. Mientras que el análisis
+                                tradicional
+                                se enfoca en volúmenes menores de datos estructurados y procesados por lotes, el Big
+                                Data se
+                                caracteriza por su capacidad para manejar cantidades masivas de datos de diferentes
+                                tipos
+                                (estructurados, semiestructurados y no estructurados) en tiempo real. Esta evolución ha
+                                impulsado el desarrollo de nuevas tecnologías como Hadoop, Spark y bases de datos NoSQL,
+                                que
+                                permiten el análisis a gran escala y la extracción de información valiosa para la toma
+                                de
+                                decisiones.</p>
+
+                            <p>Tabla 1. Comparación entre el análisis de datos tradicional y el Big Data</p>
+
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Aspectos</th>
+                                        <th scope="col">Análisis tradicional</th>
+                                        <th scope="col">Big Data</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Volumen de datos</th>
+                                        <td>Gigabytes</td>
+                                        <td>Terabytes a Petabytes</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Velocidad de procesamiento</th>
+                                        <td>Por lotes (batch)</td>
+                                        <td>En tiempo real</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Tipos de datos</th>
+                                        <td>Principalmente estructurados</td>
+                                        <td>Estructurados, semiestructurados y no estructurados</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Escalabilidad</th>
+                                        <td>Vertical (mejor hardware)</td>
+                                        <td>Horizontal (más nodos)</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Tecnología principal</th>
+                                        <td>Bases de datos relacionales</td>
+                                        <td>Hadoop, Spark, NoSQL</td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div
+                                class="bg-danger border border-dark border-start-0 border-end-0 border-2 my-5 rounded-2">
+                                <p class="text-center text-white">Fuente: OIT, 2024.</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-warning">
+                                    Texto alternativo:
+                                </div>
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p>La Tabla 1 se denomina «Comparación entre el análisis de datos
+                                            tradicional y el Big Data» y presenta entre ellos un paralelo a la luz de
+                                            aspectos como el volumen de datos, la velocidad de procesamiento, los tipos
+                                            de
+                                            datos, la escalabilidad y la tecnología que emplean.</p>
+                                        <!-- <footer class="blockquote-footer">Someone famous in <cite
+                                            title="Source Title">Source Title</cite></footer> -->
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="separador-container">
+                            <div class="separador"></div>
+                        </div>
+
+                        <section>
+
+                            <div id="t_1_2" class="titulo-segundo color-acento-botones">
+                                <h2>1.2. Importancia en el mundo actual</h2>
+                            </div>
+                            <div class="d-flex flex-wrap mb-5 align-items-start">
+                                <div class="col-lg-8 pe-lg-4 order-2 order-lg-1 aos-init">
+                                    <p>El Big Data ha revolucionado la forma en que las organizaciones toman decisiones
+                                        y
+                                        operan en diversos sectores. En el ámbito de los negocios, permite una mejor
+                                        comprensión del comportamiento del cliente, la optimización de operaciones y el
+                                        desarrollo de nuevos productos. En el sector salud, facilita la medicina
+                                        personalizada, la investigación de enfermedades y la mejora de los sistemas de
+                                        atención médica. A nivel gubernamental, el Big Data ayuda en la planificación
+                                        urbana, la seguridad pública y la prestación de servicios eficientes.
+                                        Finalmente, en
+                                        el campo científico, impulsa descubrimientos en áreas como la genómica, la
+                                        climatología y la física de partículas.</p>
+
+                                </div>
+                                <img src="assets/images/registos.jpg"
+                                    class="col-lg-4 mb-4 mb-lg-auto mx-auto order-1 order-lg-2 rounded-3"
+                                    style="max-width: 400px;">
+                            </div>
+
+                        </section>
+
+                        <div class="separador-container">
+                            <div class="separador"></div>
+                        </div>
+
+                        <section>
+                            <div id="t_1_3" class="titulo-segundo color-acento-botones">
+                                <h2>1.3. Procesos asociados al Big Data</h2>
+                            </div>
+                            <div class="d-flex flex-wrap mb-5 align-items-center">
+
+                                <div class="col-lg-12 ps-lg-4 aos-init">
+                                    <p>El manejo del Big Data implica varios procesos clave para poder extraer
+                                        información
+                                        valiosa de grandes volúmenes de datos.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-12 order-lg-2 order-1 mb-lg-0 mb-4">
+                                <div class="titulo-sexto color-acento-contenido aos-init">
+                                    <h5>Figura 1.</h5>
+                                    <i>Planeación estratégica de los recursos humanos</i>
+                                </div>
+                                <img src="assets/images/Figura1.png"
+                                    alt="En la Figura 1 se muestran aspectos importantes de la planificación de la gestión del talento humano, como la contratación, la fuerza laboral, el desarrollo profesional, el rendimiento, las redistribuciones y la gestión de la ruptura laboral."
+                                    class="mx-auto aos-init" style="max-width: 840px;">
+                                <div
+                                    class="bg-danger border border-dark border-start-0 border-end-0 border-2 my-5 rounded-2">
+                                    <p class="text-center text-white">Fuente: OIT, 2024.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-warning">
+                                    Texto alternativo:
+                                </div>
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p>La Figura 1 se denomina «Ecosistema del Big Data» y presenta un diagrama
+                                            donde se
+                                            observan en secuencia los cinco procesos clave del Big Data: recolección,
+                                            almacenamiento, procesamiento, análisis y visualización.</p>
+                                        <!-- <footer class="blockquote-footer">Someone famous in <cite
+                                        title="Source Title">Source Title</cite></footer> -->
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="separador-container">
+
+                            </div>
+                            <div class="container">
+
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+
+                                        <p>En primer lugar, la recolección se encarga de capturar datos de
+                                            diversas fuentes, como sensores, redes sociales, transacciones online, etc.
+                                            Estos
+                                            datos
+                                            pueden ser estructurados (como tablas de bases de datos) o no estructurados
+                                            (como
+                                            texto,
+                                            imágenes y videos).</p>
+                                        <p>Una vez recopilados, los datos deben ser almacenados de forma eficiente. Para
+                                            ello,
+                                            se
+                                            utilizan sistemas distribuidos y bases de datos NoSQL, que permiten manejar
+                                            grandes
+                                            volúmenes de información de manera escalable y flexible.</p>
+                                        <p>El siguiente paso es el procesamiento de los datos, que implica la aplicación
+                                            de
+                                            técnicas de
+                                            procesamiento paralelo y distribuido para transformarlos en un formato
+                                            adecuado
+                                            para
+                                            el
+                                            análisis. Esto puede incluir la limpieza de datos, la transformación de
+                                            formatos
+                                            y
+                                            la
+                                            agregación de información.</p>
+                                        <p>Posteriormente, se realiza el análisis de los datos, empleando técnicas
+                                            avanzadas
+                                            como el
+                                            aprendizaje automático y la inteligencia artificial para identificar
+                                            patrones,
+                                            tendencias y
+                                            anomalías. Este análisis permite obtener insights representativos para la
+                                            toma
+                                            de
+                                            decisiones.</p>
+                                        <p>Finalmente, los resultados del análisis se presentan mediante visualizaciones
+                                            gráficas que
+                                            facilitan la comprensión de la información. Estas visualizaciones pueden
+                                            incluir
+                                            gráficos,
+                                            mapas, dashboards, etc., que permiten comunicar los hallazgos de forma clara
+                                            y
+                                            concisa.</p>
+                                        <p>Conviene recordar que el Big Data ha transformado la forma en que se maneja y
+                                            analiza
+                                            la
+                                            información en la actualidad, generando nuevas oportunidades y desafíos en
+                                            múltiples
+                                            campos
+                                            de la actividad humana a medida que se avanza en la era digital. La
+                                            capacidad de
+                                            aprovechar
+                                            el Big Data de manera efectiva se ha convertido en una habilidad clave para
+                                            profesionales y
+                                            organizaciones, permitiéndoles extraer insights valiosos y útiles de grandes
+                                            cantidades de
+                                            datos desestructurados y complejos. Esta habilidad es esencial para tomar
+                                            decisiones
+                                            informadas y estratégicas en diversas industrias, como la salud, la
+                                            educación,
+                                            las
+                                            finanzas
+                                            y el marketing. </p>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="assets/images/data-redes.jpg"
+                                            class="rounded-3 col-lg-10 mb-4 mb-lg-auto mx-auto "
+                                            style="max-width: 400px;">
+                                    </div>
+
+                                    <p>No obstante, lo anterior, también se plantean desafíos, como la necesidad de
+                                        contar
+                                        con
+                                        expertos/as en análisis de datos y la preocupación por la privacidad y la
+                                        seguridad
+                                        de los
+                                        datos. Por lo tanto, es fundamental que los profesionales y las organizaciones
+                                        inviertan en
+                                        el desarrollo de habilidades y tecnologías para aprovechar el potencial del Big
+                                        Data
+                                        y
+                                        enfrentar los desafíos que plantea. Para aquellos/as que inician en el estudio
+                                        de
+                                        los temas
+                                        relacionados con el Big Data, se recomienda seguir aprendiendo sobre
+                                        matemáticas,
+                                        estadística y programación, ya que estas habilidades son fundamentales para el
+                                        análisis de
+                                        datos. Además, es importante estar al tanto de las últimas tendencias y
+                                        herramientas
+                                        en el
+                                        campo del Big Data, y tener una mentalidad analítica y curiosa para poder
+                                        encontrar
+                                        nuevas
+                                        posibilidades y miradas sobre los datos.</p>
+
+
+                                </div>
+                            </div>
+                        </section>
+
+
+
+
+
 
                     </div>
                 </div>
-
-            </section>
-
-
-
+            </div>
         </section>
     </main>
 
