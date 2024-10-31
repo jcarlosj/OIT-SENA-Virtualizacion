@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elementos conceptuales de la gestión de talento humano en organizaciones deportivas</title>
+    <title>Fundamentos de programación</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
@@ -17,6 +17,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
 </head>
 
 <body class="page page-content d-flex flex-column min-vh-100">
@@ -32,8 +33,7 @@
                 </div>
                 <ul class="navbar-nav flex-row ms-1 me-1 ms-md-3 ms-lg-5">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Elementos conceptuales de la gestión de
-                            talento humano en organizaciones deportivas</a>
+                        <a class="nav-link active" aria-current="page" href="#">Fundamentos de programación</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
@@ -56,32 +56,427 @@
     <main class="main container-fluid px-0 px-sm-3 container-sm container-md container-lg container-xl">
 
         <section class="content rounded-4 px-3 py-4 px-sm-5 pb-sm-5 mt-5 mb-5">
-            <h1 class="title-main">
-                <i class="bi bi-info-square-fill"></i>
-                Introducción
-            </h1>
+            <div data-aos="flip-up" class="titulo-principal color-acento-contenido aos-init aos-animate">
+                <div class="titulo-principal__numero"><span>2</span></div>
+                <h1>Fundamentos de programación</h1>
+            </div>
 
             <section>
-                <p>En la era digital, los datos se han convertido en el nuevo oro. Cada día, se generan y se consumen
-                    cantidades asombrosas de información, desde las interacciones en redes sociales hasta las
-                    transacciones financieras y los registros médicos. Este diluvio de datos ha dado lugar al fenómeno
-                    conocido como Big Data, un campo que promete revolucionar la forma en que se entienden y se toman
-                    decisiones en prácticamente todos los aspectos de la vida.</p>
-                <p>Pero ¿qué es exactamente el Big Data y por qué es tan importante? Este componente formativo le
-                    acercará al fascinante mundo del Big Data, explorando cómo las organizaciones y los individuos
-                    pueden aprovechar esta avalancha de información para obtener insights valiosos, mejorar la
-                    eficiencia y resolver problemas complejos. Desde predicciones meteorológicas más precisas hasta
-                    tratamientos médicos personalizados, el Big Data está transformando industrias enteras y abriendo
-                    nuevas posibilidades.</p>
-                <p>A lo largo de estas páginas, será guiado a través de los conceptos fundamentales, las técnicas y las
-                    herramientas esenciales del Big Data. Utilizando ejemplos y códigos, se descubrirá cómo los datos
-                    masivos están dando forma al futuro y cómo se puede ser parte de esta revolución tecnológica. ¡Se
-                    invita a apreciar el siguiente video de apertura al presente componente!
-                </p>
+                <div class="d-flex flex-wrap mb-5 align-items-center">
+                    <img src="assets/images/programacion.jpg" class="col-lg-4 mb-4 mb-lg-auto mx-auto rounded-3"
+                        style="max-width: 400px;">
+                    <div class="col-lg-8 ps-lg-4 aos-init aos-animate">
+                        <p>La programación es el lenguaje que permite la comunicación con los datos. Este capítulo
+                            establece
+                            las
+                            bases fundamentales de la programación, presentando conceptos esenciales como algoritmos,
+                            variables
+                            y estructuras de control, que son punto de partida para comprender cómo se manipulan y
+                            procesan
+                            los
+                            grandes volúmenes de datos en el contexto del Big Data.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div class="separador-container">
+                <div class="separador"></div>
+            </div>
+
+            <section>
+                <div id="t_1_1" class="titulo-segundo color-acento-botones">
+                    <h2>2.1 Concepto de algorítmo</h2>
+                </div>
+
+                <p class="mb-5 aos-init aos-animate">Un algoritmo es una secuencia de pasos lógicos y bien definidos
+                    que resuelven un problema específico. En programación, los algoritmos permiten desarrollar
+                    soluciones eficientes y estructuradas. Algunas características clave, que pueden ayudar a
+                    comprender lo que es un algoritmo, son las siguientes:</p>
+                <div class="d-flex flex-wrap mb-5">
+
+                    <ul class="lista-ul--color lista-ul--separador">
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Precisión</strong>: cada paso debe estar
+                                claramente definido.</p>
+                        </li>
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Finitud:</strong> debe terminar después de
+                                un número finito de pasos.</p>
+                        </li>
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Entrada:</strong> puede tener cero o más
+                                entradas.</p>
+                        </li>
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Salida:</strong> debe producir al menos un
+                                resultado.</p>
+                        </li>
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Eficacia:</strong> debe ser lo
+                                suficientemente básico como para ser llevado a cabo por una persona usando lápiz y
+                                papel.
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
 
             </section>
 
+            <div class="separador-container">
+                <div class="separador"></div>
+            </div>
+
+            <section>
+                <div id="t_1_1" class="titulo-segundo color-acento-botones">
+                    <h2>2.2 Variables y tipos de datos</h2>
+                </div>
+
+                <p class="mb-5 aos-init aos-animate">Las variables son contenedores para almacenar datos en la memoria
+                    del computador. Cada variable tiene un tipo de dato asociado que determina qué clase de información
+                    puede almacenar. Los siguiente son los tipos de datos más comunes:</p>
+                <div class="d-flex flex-wrap mb-5">
+
+                    <ul class="lista-ul--color lista-ul--separador">
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Enteros (int):</strong>números sin parte
+                                decimal (ej. 1, -5, 100).</p>
+                        </li>
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Flotantes (float):</strong> números con
+                                parte decimal (ej. 3.14, -0.01, 2.0).</p>
+                        </li>
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Cadenas (string):</strong> secuencias de
+                                caracteres (ej. "Hola mundo", "OpenAI").</p>
+                        </li>
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Booleanos (bool):</strong> valores de
+                                verdadero (True) o falso (False).</p>
+                        </li>
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Listas:</strong> colecciones de pares
+                                clave-valor (ej. {"nombre": "Juan", "edad": 30}).
+                            </p>
+                        </li>
+                        <li class="d-flex mb-2 pb-2 align-items-start"><img
+                                src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                                style="max-width: 8px;">
+                            <p class="ps-2 mb-0 aos-init aos-animate"><strong>Diccionarios:</strong> debe ser lo
+                                suficientemente básico como para ser llevado a cabo por una persona usando lápiz y
+                                papel.
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </section>
+
+            <div class="separador-container">
+                <div class="separador"></div>
+            </div>
+
+            <section>
+                <div id="t_1_1" class="titulo-segundo color-acento-botones">
+                    <h2>2.3 Operadores</h2>
+                </div>
+                <p>Los operadores son símbolos especiales que realizan acciones específicas sobre uno o más operandos.
+                    La Tabla 2 muestra los diferentes tipos que se utilizan comúnmente en la mayoría de los lenguajes de
+                    programación. Estos incluyen operadores aritméticos para realizar cálculos matemáticos, operadores
+                    de comparación para comparar valores, operadores lógicos para combinar condiciones, operadores de
+                    asignación para asignar valores a variables y operadores bit a bit para manipular datos a nivel de
+                    bits.</p>
+
+                <p>Tabla 1. Comparación entre el análisis de datos tradicional y el Big Data</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tipo de Operador</th>
+                            <th scope="col">Ejemplos</th>
+                            <th scope="col">Descripción</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Aritméticos</th>
+                            <td>+, -, *, /, %</td>
+                            <td>Realizan operaciones matemáticas básicas</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Comparación</th>
+                            <td>==, !=, >, <,>=, <=< /td>
+                            <td>Comparan valores y devuelven un booleano</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Lógicos</th>
+                            <td>and, or, not</td>
+                            <td>Combinan condiciones booleanas</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Asignación</th>
+                            <td>=, +=, -=, *=, /=</td>
+                            <td>Asignan valores a variables</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Bit a bit</th>
+                            <td>&, \</td>
+                            <td>, ^, ~, <<,>></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="bg-danger border border-dark border-start-0 border-end-0 border-2 my-5 rounded-2">
+                    <p class="text-center text-white">Fuente: OIT, 2024.</p>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-warning">
+                        Texto alternativo:
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>La Tabla 2 se denomina «Tipos de operadores en programación» y presenta una breve
+                                descripción y ejemplos de operadores aritméticos, de comparación, lógicos, de asignación
+                                y de bit a bit.</p>
+                            <!-- <footer class="blockquote-footer">Someone famous in <cite
+                                title="Source Title">Source Title</cite></footer> -->
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+            <div class="separador-container">
+                <div class="separador"></div>
+            </div>
+
+            <section>
+                <div id="t_1_1" class="titulo-segundo color-acento-botones">
+                    <h2>2.4 Estructuras de control de flujo</h2>
+                </div>
+                <p>Las estructuras de control de flujo determinan el orden en que se ejecutan las instrucciones en un
+                    programa. Son esenciales en programación, ya que permiten dirigir la ejecución del código según
+                    condiciones específicas y repetir acciones cuando sea necesario. Las principales son:</p>
+
+                <ul class="lista-ul--color lista-ul--separador">
+                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                            src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                            style="max-width: 8px;">
+                        <p class="ps-2 mb-0 aos-init aos-animate"><strong>Estructuras secuenciales.</strong>Son aquellas
+                            en las que las instrucciones se ejecutan una tras otra en el orden en que están escritas.
+                            Este es el flujo más básico en un programa, donde no hay saltos ni bifurcaciones.</p>
+                    </li>
+                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                            src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                            style="max-width: 8px;">
+                        <p class="ps-2 mb-0 aos-init aos-animate"><strong>Estructuras condicionales. </strong> Permiten
+                            ejecutar diferentes bloques de código según se cumplan o no ciertas condiciones. Introducen
+                            decisiones en el flujo del programa, habilitando rutas alternativas de ejecución.</p>
+                    </li>
+                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                            src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                            style="max-width: 8px;">
+                        <p class="ps-2 mb-0 aos-init aos-animate"><strong>Estructuras repetitivas.</strong>Permiten
+                            ejecutar un bloque de código múltiples veces, lo cual es útil para manejar tareas que
+                            requieren iteración, como procesar elementos de una lista o realizar operaciones hasta que
+                            se cumpla una condición.</p>
+                    </li>
+
+                </ul>
+                <p>Tabla 3. Tipos de estructuras de datos y ejemplos</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tipo de estructura de control de flujo</th>
+                            <th scope="col">Ejemplo en lenguaje Python</th>
+                            <th scope="col">Observación</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Estructuras secuenciales Ejecución lineal de instrucciones.</th>
+                            <td>print("Inicio del programa")
+                                nombre = input("Ingresa tu nombre: ")
+                                print(f"Hola, {nombre}!")
+                                print("Fin del programa")
+                            </td>
+                            <td>En este ejemplo, cada instrucción se ejecuta secuencialmente, desde el inicio hasta el
+                                final, siguiendo el orden establecido.</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Estructuras condicionales
+                                Decisiones basadas en condiciones que alteran el flujo del programa.
+                            </th>
+                            <td>edad = int(input("Ingresa tu edad: "))
+                                if edad >= 18:
+                                print("Eres mayor de edad")
+                                else:
+                                print("Eres menor de edad")
+                            </td>
+                            <td>En este caso, el programa solicita al usuario su edad y luego verifica si es mayor o
+                                igual a 18. Si la condición es verdadera (edad >= 18), se ejecuta el bloque dentro del
+                                if; de lo contrario, se ejecuta el bloque dentro del else.</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Estructuras repetitivas
+                                Repetición de bloques de código para realizar tareas iterativas.
+                            </th>
+                            <td>for i in range(5):
+                                print(f"Iteración {i}")
+                            </td>
+                            <td>En este bucle, el bloque de código dentro del for se ejecuta cinco veces. La función
+                                range(5) genera una secuencia de números del 0 al 4, y en cada iteración, la variable i
+                                toma uno de estos valores. El programa imprimirá:
+                                Iteración 0
+                                Iteración 1
+                                Iteración 2
+                                Iteración 3
+                                Iteración 4
+                                Este tipo de estructura es fundamental para recorrer colecciones de datos y automatizar
+                                procesos repetitivos.
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+                <div class="bg-danger border border-dark border-start-0 border-end-0 border-2 my-5 rounded-2">
+                    <p class="text-center text-white">Fuente: OIT, 2024.</p>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-warning">
+                        Texto alternativo:
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>La Tabla 3 se denomina «Tipos de operadores en programación» y presenta una breve
+                                descripción y ejemplos de operadores aritméticos, de comparación, lógicos, de asignación
+                                y de bit a bit.</p>
+                            <!-- <footer class="blockquote-footer">Someone famous in <cite
+                                title="Source Title">Source Title</cite></footer> -->
+                        </blockquote>
+                    </div>
+                </div>
+
+            </section>
+            <div class="separador-container">
+                <div class="separador"></div>
+            </div>
+
+            <section>
+                <div id="t_1_1" class="titulo-segundo color-acento-botones">
+                    <h2>2.5 Arreglos</h2>
+                </div>
+
+                <p>Los arreglos son estructuras de datos que almacenan elementos del mismo tipo en posiciones de memoria
+                    contiguas. En muchos lenguajes modernos, como Python, se utilizan listas que son más flexibles que
+                    los arreglos tradicionales. El siguiente es un ejemplo en ese lenguaje de programación.</p>
+                <div class="col-lg-12 card border-info mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">numeros = [1, 2, 3, 4, 5]</h5>
+                        <h5 class="card-text">
+                            print(numeros[2]) # Imprime: 3
+                        </h5>
+                    </div>
+                </div>
+            </section>
+            <div class="separador-container">
+                <div class="separador"></div>
+            </div>
+
+            <section>
+                <div id="t_1_1" class="titulo-segundo color-acento-botones">
+                    <h2>2.6 Ficheros</h2>
+                </div>
+                <p>Los ficheros permiten almacenar datos de forma permanente en el disco duro. Las operaciones básicas
+                    con ficheros incluyen:</p>
+
+                <ul class="lista-ul--color lista-ul--separador">
+                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                            src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                            style="max-width: 8px;">
+                        <p class="ps-2 mb-0 aos-init aos-animate">Abrir un fichero</p>
+                    </li>
+                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                            src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                            style="max-width: 8px;">
+                        <p class="ps-2 mb-0 aos-init aos-animate">Leer datos de un fichero</p>
+                    </li>
+                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                            src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                            style="max-width: 8px;">
+                        <p class="ps-2 mb-0 aos-init aos-animate">Escribir datos en un fichero</p>
+                    </li>
+                    <li class="d-flex mb-2 pb-2 align-items-start"><img
+                            src="assets/images/svg/decorador-ul.a1e14f58.svg" class="mt-1 aos-init aos-animate"
+                            style="max-width: 8px;">
+                        <p class="ps-2 mb-0 aos-init aos-animate">Cerrar un fichero</p>
+                    </li>
+
+                </ul>
+                <p>Este es un ejemplo de escritura en un fichero en Python:</p>
+                <div class="col-lg-12 card border-info mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">with open('ejemplo.txt', 'w') as f:</h5>
+                        <h5 class="card-text">f.write('Hola, mundo!') </h5>
+                    </div>
+                </div>
+
+            </section>
+            <div class="separador-container">
+                <div class="separador"></div>
+            </div>
+
+            <section>
+                <div id="t_1_1" class="titulo-segundo color-acento-botones">
+                    <h2>2.7 Funciones</h2>
+                </div>
+                <p>Las funciones son bloques de código reutilizables que realizan una tarea específica. Ayudan a
+                    organizar el código, evitar la repetición y mejorar la legibilidad. Ejemplo de función en Python:
+                </p>
+                <div class="col-lg-12 card border-info mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">def saludar(nombre):<br>
+                            return f"Hola, {nombre}!"
+                        </h5>
+                        <h5 class="card-text">
+                            print(numeros[2]) # Imprime: 3
+                        </h5>
+                    </div>
+                </div>
+                <p>Estos fundamentos de programación son esenciales para comprender cómo se desarrollan las soluciones
+                    de software en el contexto del Big Data. En los próximos capítulos, se percibirá cómo estos
+                    conceptos se aplican en lenguajes específicos utilizados en la analítica de datos.</p>
+            </section>
+
             
+
 
         </section>
     </main>
@@ -91,7 +486,7 @@
             <nav class="row justify-content-between align-items-center">
                 <!-- Botón izquierdo -->
                 <div class="col-auto">
-                    <a class="btn btn-success" href="#">
+                    <a class="btn btn-success" href="02-contenido-clase - 1.html">
                         <i class="bi bi-chevron-left"></i>
                         <span>Regresar</span>
                     </a>
