@@ -9,6 +9,7 @@
     --Back: #000000;
     --Platinum: #E8E8E8;
     --PhilippineYellow: #FFCA00;
+    --Salem: #198754;
 
     /** Fonts */
     --Roboto: "Roboto", sans-serif;
@@ -17,6 +18,13 @@
 html, body {
 	box-sizing: border-box;
 	font-family: var( --Roboto );	
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
 }
 
 
@@ -254,4 +262,9 @@ h3 {
     background-color: var( --AzureishWhite );
     color: var( --Rhythm );
     font-size: 12.8px;
+}
+
+/* Ocultar el menú estático en pantallas grandes */
+.site-menu {
+    display: none;
 }

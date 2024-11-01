@@ -1,0 +1,91 @@
+.ma5menu__container {
+    background-color: #d8ecff;
+}
+.ma5menu__panel {
+    background-color: #d8ecff;
+    color: gray;
+}
+.ma5menu__panel.lvl-0 {
+    text-transform: initial;
+}
+.ma5menu__head {
+    background-color: white;
+    border-bottom: 2px solid green;
+}
+.ma5menu__header {
+    line-height: initial;
+    color: #fff;
+    background-color: transparent;
+}
+
+
+.ma5menu__panel>ul li a {
+    color: #111e61;
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    
+}
+.ma5menu__panel>ul li a:hover {
+    color: gray;
+    background-color: var( --AliceBlue );
+}
+.ma5menu__leave {
+    font-size: 1rem;
+    color: #111e61;
+    font-weight: 600;
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    i.bi.bi-x {
+        color: green;
+        font-size: 1.8rem;
+        font-weight: bolder;
+    }
+    i.bi.bi-chevron-left {
+        flex-basis: auto;
+    }
+    i.bi.bi-chevron-left::before {
+        /* border: 1px solid blue; */
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6rem;
+    }
+    .this-text {
+        flex-basis: 80%;
+    }
+}
+
+.ma5menu__toggle {
+    color: green;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-color: var( --AliceBlue );
+}
+
+.ma5menu__toggle:hover {
+    color: #fff;
+    background-color: green;
+}
+
+.ma5menu__btn--enter-2 {
+    z-index: 0;
+    left: auto;
+    right: 0;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20fill%3D%22%23fff%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z%22/%3E%3C/svg%3E);
+    width: 50px;
+}
+
